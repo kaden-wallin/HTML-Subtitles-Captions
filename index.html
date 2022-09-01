@@ -23,8 +23,8 @@
             <track
                 src="./assets/text-tracks/dog-video.vtt"
                 kind="captions"
-                srclang="en"
-                label="English"><!-- Include a track tag with the src attribute set to "dog-video.vtt" -->
+                srclang="English"
+                label="English Captions"><!-- Include a track tag with the src attribute set to "dog-video.vtt" -->
             </video>
         </div>
         <div>
@@ -35,7 +35,15 @@
                 Obviously, none of us can understand what pigeons are saying, so we'll just make up some subtitles! Create your own time stamps and invent your own dialog!
             </p>
             <video
-                src="./assets/videos/pigeons-in-love.mp4"<!-- TODO: Put the pigeons in love MP4 video here-->
+                src="./assets/videos/pigeons-in-love.mp4"
+                controls>
+            <track
+                src="./assets/text-tracks/pigeons.vtt"
+                kind="captions"
+                srclang="English"
+                label="English Captions">
+            </video>
+                <!-- TODO: Put the pigeons in love MP4 video here-->
             <!-- This video should have controls and two track tags (for example, for English AND French subtitles) -->
         </div>
     </main>
